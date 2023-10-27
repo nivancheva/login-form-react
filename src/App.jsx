@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='w-[420px] text-white bg-transparent py-[30px] px-[40px] rounded-[10px] border-solid border-2 border-white backdrop-blur-[30px] shadow-sm border-opacity-20'>
+    <div className='w-[420px] text-white bg-transparent py-[30px] px-[40px] rounded-[10px] border-solid border-2 border-white backdrop-blur-[30px] shadow-md border-opacity-20'>
       <form>
         <h1 className='text-3xl text-center'>Login</h1>
         <div className="w-full h-[50px] mx-0 my-[30px] relative">
@@ -26,7 +26,7 @@ function App() {
           <a className='text-white no-underline hover:underline' href='#'>Forgot password?</a>
         </div>
 
-        <button className='btn w-full h-[45px] bg-white outline-none text-gray-700 font-semibold cursor-pointer rounded-[40px] shadow-sm' type='submit'>Login</button>
+        <button className='btn w-full h-[45px] bg-white outline-none text-gray-700 font-semibold cursor-pointer rounded-[40px] shadow-md' type='submit'>Login</button>
 
         <div className="text-[14.5] text-center mt-[20px] mx-0 mb-[15px]">
           <p>Don't have an account?
