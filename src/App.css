@@ -1,0 +1,8 @@
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.remember-forgot a:hover,
+.register-link p a:hover {
+  text-decoration: underline;
+}
